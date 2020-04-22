@@ -1,0 +1,234 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-image: linear-gradient(to right, rgba(129, 155, 227, 0), rgba(129, 155, 227, 1));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0b193e;
+}
+
+.card {
+  width: 600px;
+  background-color: #fff;
+  margin-top: 2rem;
+  padding-bottom: 5rem;
+  position: relative;
+}
+
+.logo {
+  width: 600px;
+  display: block;
+}
+
+.banner {
+  width: 600px;
+  display: block;
+}
+
+.bottom-hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.75em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  border-style: inset;
+  border-width: 1px;
+  color: #0b193e;
+}
+
+h1 {
+  font-size: 25px;
+  color: #0b193e;
+  padding-left: .75rem;
+  padding-top: 1rem;
+}
+
+.inhoud h2 {
+  font-size: 18px;
+  padding-left: .75rem;
+}
+
+.inhoud ul {
+  margin-left: 2.2rem;
+  list-style-type: circle;
+}
+
+.titel {
+  float: left;
+  padding-bottom: 0;
+}
+
+.year {
+  text-align: right;
+  padding-right: 2.2rem;
+  font-size: 25px;
+}
+
+.lead {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.voorstellen h2 {
+  font-size: 18px;
+  padding-left: .5rem;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+}
+
+.video {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+table {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #0b193e;
+  margin: 0 auto;
+  border-spacing: 5px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+.img-wrap {
+  float: right;
+  margin: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.enquete-link {
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: bold;
+}
+
+.enquete-link a {
+  color: #0b193e;
+}
+
+.enquete-link a:visited {
+  color: #0b193e;
+}
+
+.enquete-link a:hover {
+  color: #819be3;
+  text-decoration: underline;
+}
+
+.leren h2 {
+  padding-left: 1rem;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.leren th:hover {
+  background-color: #0b193e;
+}
+
+.leren th:hover a {
+  color: #fff;
+}
+
+th a {
+  color: #0b193e;
+}
+
+th a:visited {
+  color: #0b193e;
+}
+
+
+.img-wrap-event {
+  float: right;
+  margin: 10px;
+  width: 275px;
+  height: auto;
+}
+
+.organisatie-img {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.organisatie-img img {
+  width: 500px;
+  height: auto;
+}
+
+
+.organisatie a {
+  color: #0b193e;
+  text-decoration: underline;
+}
+
+.organisatie a:visited {
+  color: #0b193e;
+}
+
+.organisatie a:hover {
+  color: #819be3;
+  text-decoration: underline;
+}
+
+.contact {
+  background-color: #0b193e;
+  margin-bottom: 3rem;
+}
+
+.contact h1 {
+  color: #fff;
+}
+
+
+table.tabel {
+  margin-left: 1rem;
+  color: #fff;
+  font-size: 12px;
+}
+
+.tabel td, .tabel th {
+  text-align: left;
+  border: 0px;
+  padding: 1px 2px 1px 2px;
+}
+
+.tabel th a {
+  padding-left: 18rem;
+  color: #fff;
+}
+
+.tabel a:hover {
+  color: #819be3;
+  text-decoration: underline;
+}
+
+.rand {
+  height: 10px;
+  width: 100%;
+  background-color: #0b193e;
+}
+
+.footer {
+  float: right;
+  padding-right: 1rem;
+  padding-top: 2.75rem;
+  width: 100px;
+  height: auto;
+}
